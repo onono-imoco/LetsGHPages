@@ -370,11 +370,15 @@ code {
 <h3 id="%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%AE%E5%AD%98%E5%9C%A8%E7%A2%BA%E8%AA%8D">アカウントの存在確認</h3>
 <p>無ければ作るべし</p>
 <h3 id="ssh%E3%82%AD%E3%83%BC%E7%99%BB%E9%8C%B2">SSHキー登録</h3>
-<p>GitHubホーム &gt; 右上アイコン &gt; Settings &gt; SSH and GPG keys
-できてなければ登録すべし</p>
+<ul>
+<li>GitHubホーム &gt; 右上アイコン &gt; Settings &gt; SSH and GPG keys</li>
+<li>できてなければ登録すべし</li>
+</ul>
 <h4 id="%E9%8D%B5%E3%81%AE%E7%94%9F%E6%88%90">鍵の生成</h4>
-<p>下記の通り進めれば作れる
-<a href="https://qiita.com/wakahara3/items/52094d476774f3a2f619">Macで公開鍵と秘密鍵を生成する方法</a></p>
+<ul>
+<li>下記の通り進めれば作れる</li>
+<li><a href="https://qiita.com/wakahara3/items/52094d476774f3a2f619">Macで公開鍵と秘密鍵を生成する方法</a></li>
+</ul>
 <h4 id="github%E3%81%AB%E7%99%BB%E9%8C%B2">GitHubに登録</h4>
 <p>公開鍵をGitHubに登録する</p>
 <h2 id="nodejs%E3%81%AE%E5%AD%98%E5%9C%A8%E7%A2%BA%E8%AA%8D">Node.jsの存在確認</h2>
@@ -392,21 +396,33 @@ code {
 <h2 id="git%E3%81%AE%E5%AD%98%E5%9C%A8%E7%A2%BA%E8%AA%8D">gitの存在確認</h2>
 <pre class="hljs"><code><div>git -v
 </div></code></pre>
-<p>追加で、gitのデフォルトブランチが&quot;main&quot;になっていることを確認すべし。
-なってなければデフォルトを&quot;main&quot;にすること。</p>
+<ul>
+<li>追加で、gitのデフォルトブランチが&quot;main&quot;になっていることを確認すべし。</li>
+<li>なってなければデフォルトを&quot;main&quot;にすること。</li>
+</ul>
 <h1 id="%E9%81%A9%E5%BD%93%E3%81%AAreact%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E5%85%AC%E9%96%8B%E3%81%99%E3%82%8B">適当なReactアプリを作って公開する</h1>
-<p>基本的には下記サイトに従って作業すればOK
-<a href="https://qiita.com/tat_mae084/items/4051c61926dc8165e80b">ReactをGitHub Pagesにデプロイしよう〜Vite編〜</a></p>
+<ul>
+<li>基本的には下記サイトに従って作業すればOK</li>
+<li><a href="https://qiita.com/tat_mae084/items/4051c61926dc8165e80b">ReactをGitHub Pagesにデプロイしよう〜Vite編〜</a></li>
+</ul>
 <h2 id="github%E4%B8%8A%E3%81%A7%E3%81%AE%E4%BD%9C%E6%A5%AD">GitHub上での作業</h2>
 <h3 id="%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%82%92%E4%BD%9C%E3%82%8B">リポジトリを作る</h3>
 <ul>
-<li>必ずpublicで</li>
-<li>必ずReadme.mdを作成 し な い</li>
-</ul>
+<li>
+<p>必ずpublicで</p>
+</li>
+<li>
+<p>必ずReadme.mdを作成 し な い</p>
+</li>
+<li>
 <p>空っぽのリポジトリが出来上がればひとまずOK</p>
+</li>
+</ul>
 <h2 id="%E9%81%A9%E5%BD%93%E3%81%AAreact%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E4%BD%9C%E3%82%8B">適当なReactアプリを作る</h2>
-<p>参考サイト通りに作るべし
-また、vite.config.tsとpackage.jsonも参考サイト通りに編集すべし</p>
+<ul>
+<li>参考サイト通りに作るべし</li>
+<li>また、vite.config.tsとpackage.jsonも参考サイト通りに編集すべし</li>
+</ul>
 <h2 id="%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B">バージョン管理する</h2>
 <pre class="hljs"><code><div>git init
 git commit -m 'first commit'
